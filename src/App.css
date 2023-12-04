@@ -126,6 +126,10 @@ input {
 .hero_para_max_w {
   max-width: 652px;
 }
+.hero_img_size{
+  width: 240px;
+  height: 240px;
+}
 .join_us_btn {
   border-radius: 25px;
   border: 1px solid #fff;
