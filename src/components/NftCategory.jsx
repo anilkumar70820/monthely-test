@@ -9,12 +9,12 @@ const NftCategory = () => {
     <div className="my_container">
         <h2 className='headings_h2 text-black mb-4 text-center'>Top NFT by Category</h2>
         <p className='fs_xsm fw-semibold text-black opacity_70 text-center lh_120 category_para_max_w mx-auto mb-5 pb-3'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-    <div className='d-flex align-items-center overflow-x-auto gap-4 justify-content-center mb-5 pb-4'>
-        <button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Sports</button>
-        <button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Ats</button>
-        <button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Music</button>
-        <button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Fashion</button>
-        <button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Memes</button>
+    <div className='d-flex align-items-center overflow-x-scroll gap-4 justify-content-lg-center mb-5 pb-4'>
+        <div><button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Sports</button></div>
+        <div><button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Ats</button></div>
+        <div><button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Music</button></div>
+        <div><button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Fashion</button></div>
+        <div><button className='category_btn border-0 fs_md fw-medium text-black ff_josefin_sans lh_normal'>Memes</button></div>
     </div>
     <Row>
     {category.map((data) => {

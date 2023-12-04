@@ -8,6 +8,7 @@ import ExplorerNft from './components/ExplorerNft';
 import TopMarketNft from './components/TopMarketNft';
 import NftCategory from './components/NftCategory';
 import BackToTop from './components/BackToTop';
+import UpcommingNft from './components/UpcommingNft';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
   <ExplorerNft/>
   {/* <TopMarketNft/> */}
   <NftCategory/>
+  <UpcommingNft/>
   <BackToTop/>
   </>
   );
